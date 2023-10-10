@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- Ionic icons -->
+    <link
+      href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900"
+      rel="stylesheet"
+    />
+    <title>About Us - Larkana Local Businesses</title>
+  </head>
+  <body>
+    <!-- N A V B A R -->
+    <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+      <div class="d-flex align-items-center">
+        <button
+          class="navbar-toggler ms-2"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="icon ion-md-menu"></span>
+        </button>
+        <a href="index.html">
+          <img
+            src="logo.png"
+            class="img-fluid nav-logo-mobile"
+            alt="Company Logo"
+          />
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="container">
+          <a href="index.html">
+            <img
+              src="logo.png"
+              class="img-fluid nav-logo-desktop"
+              alt="Company Logo"
+            />
+          </a>
+          <ul
+            class="navbar-nav ml-auto nav-right"
+            data-easing="easeInOutExpo"
+            data-speed="1250"
+            data-offset="65"
+          >
+            <li class="nav-item nav-custom-link">
+              <a class="nav-link" href="index.html"
+                >Home <i class="icon ion-ios-arrow-forward icon-mobile"></i
+              ></a>
+            </li>
+            <li class="nav-item nav-custom-link">
+              <a class="nav-link active" href="about.html"
+                >About us <i class="icon ion-ios-arrow-forward icon-mobile"></i
+              ></a>
+            </li>
+            <li class="nav-item nav-custom-link dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Businesses
+                <i class="icon ion-ios-arrow-forward icon-mobile"></i
+              ></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item nav-custom-link" href="businesses.html"
+                    >Food Stalls</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item nav-custom-link" href="larkana.html"
+                    >Larkana History</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- E N D  N A V B A R -->
+
+    <!-- A B O U T -->
+    <section id="about" class="pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col"><h3>about us</h3></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>
+              Established in 2003, Outfitters is a fashion brand created for the
+              spirited youth of Pakistan who enjoy indulging in the latest
+              lifestyle trends; be it style, music, technology or social
+              networking, as a means to express themselves.
+            </p>
+            <p>
+              Outfitters has separate product lines in order to cater to all
+              segments and their demands - men, women and juniors. Within each
+              line we offer a wide array of products which caters to a variety
+              of different styles and preferences, from highly fashionable, on
+              trend pieces to athleisure garments to more casual, every day
+              attire and basic apparel.
+            </p>
+            <p>
+              Outfitter's product range also includes a wide array of footwear,
+              accessories and fragrances, making it a one-stop high-street
+              destination for all western wear wardrobe demands.
+            </p>
+            <p>
+              Outfitters has always been able to provide the best in fashion
+              through a unique and flexible model that is open to adapting to
+              the constant changes that occur during a season. At the same time,
+              we are able to respond to key trends and develop them into
+              wearable fashion in the shortest possible time for a collection
+              that is fun, vibrant, and expressive.
+            </p>
+            <p>
+              Today, after 20 years of meeting the public’s demand for on trend
+              western wear in Pakistan, Outfitters has managed to successfully
+              set up 100+ stores across 20 cities in Pakistan as well as, a
+              rapidly growing online store, all of which have been carefully
+              merchandised to cater to our customers, allowing them to build a
+              wardrobe that expresses them and their personal style.
+            </p>
+          </div>
+        </div>
+        <hr class="divider mt-5" />
+      </div>
+    </section>
+    <!-- E N D  A B O U T -->
+
+    <!-- S U R V E Y -->
+    <section id="survey" class="p-0">
+      <div class="container px-5 py-0">
+        <div class="row">
+          <div class="col">
+            <h3 class="p-0 m-0">how usefull is this website for you?</h3>
+            <h3 class="p-0 mt-3">tell us!</h3>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <form action="" method="post" class="container">
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Example - John"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="name@example.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="review" class="form-label">Your Review Here</label>
+                <textarea
+                  class="form-control"
+                  id="review"
+                  rows="3"
+                  name="review"
+                  required
+                ></textarea>
+              </div>
+
+              <button
+                type="button"
+                class="btn btn-dark"
+                style="
+                  --bs-btn-padding-y: 0.25rem;
+                  --bs-btn-padding-x: 0.5rem;
+                  --bs-btn-font-size: 0.75rem;
+                "
+              >
+                Submit review
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- E N D  S U R V E Y -->
+
+    <!--  F O O T E R  -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h5>Larkana Local Businesses</h5>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="businesses.html">Food Stalls</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>About</h5>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="larkana.html">About Larkana</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Blog</h5>
+            <ul>
+              <li><a href="larkana.html">History of Larkana</a></li>
+              <li><a href="larkana.html">Top Visiting Places in Larkana</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <a href="#"><i class="icon ion-logo-facebook"></i></a>
+            <a href="#"><i class="icon ion-logo-instagram"></i></a>
+            <a href="#"><i class="icon ion-logo-twitter"></i></a>
+            <a href="#"><i class="icon ion-logo-youtube"></i></a>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <small
+              >2023 &copy; All rights reserved. Made by
+              <a
+                href="https://noor-mustafa-qureshi.github.io/Resume/"
+                target="blank"
+                class="external-links"
+                >Noor Mustafa Qureshi</a
+              ></small
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--  E N D  F O O T E R  -->
+
+    <!-- External JavaScripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
